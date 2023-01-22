@@ -8,7 +8,7 @@ version=2.0
 OPKGINSTALL=opkg install --force-reinstall
 MY_URL="https://raw.githubusercontent.com/emil237/oscam-revcam/main"
 
-MY_IPK_OSCAM_REVCAM="enigma2-plugin-softcams-oscam-revcam_11.708-emu-r798_all.ipk"
+MY_IPK_OSCAM_REVCAM="enigma2-plugin-softcams-revcam-oscam_11718-emu-r798_all.ipk"
 ##############################################################################
 ###########################################
 # Remove previous files #
@@ -38,11 +38,12 @@ echo "   UPLOADED BY  >>>>   EMIL_NABIL "
 sleep 4;
 	echo '========================================================================================================================='
 ###########################################                                                                                                                  
-echo ". >>>>         RESTARING     <<<<"
+echo ". >>>>     PLEASE RESTARING     <<<<"
 echo "**********************************************************************************"
 wait
-killall -9 enigma2
 exit 0
+
+
 
 
 
